@@ -1,0 +1,14 @@
+post:
+  operationId: createPerson
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/PersonCreate"
+  responses:
+    "201":
+      description: Person created
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Person"

@@ -1,0 +1,15 @@
+[project]
+name = "Python FastAPI Template"
+version = "0.1.0"
+description = "App"
+authors = [
+    { name = "Vijay", email = "vijay123@test.com" }
+]
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+]
+
+[tool.pytest.ini_options]
+pythonpath = "."
+asyncio_mode = "auto"

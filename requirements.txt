@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+datamodel-code-generator
+pydantic[email]
+pytest
+pytest-asyncio
+sqlalchemy[asyncio]
+asyncpg
+pydantic-settings
+httpx
+alembic
+python-dotenv

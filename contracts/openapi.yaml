@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: Contract First API
+  version: 1.0.0
+servers:
+  - url: /api/v1
+paths:
+  /health:
+    $ref: './paths/health.yaml'
+  /persons:
+    $ref: './paths/persons.yaml'
+components:
+  schemas:
+    Person:
+      $ref: './schemas/person.yaml#/Person'
+    PersonCreate:
+      $ref: './schemas/person.yaml#/PersonCreate'
